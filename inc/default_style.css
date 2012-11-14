@@ -14,14 +14,14 @@ div.sidebar-name h3, #menu-management .nav-tab, #dashboard_plugins h5, a.rsswidg
 a, #adminmenu a,
 #the-comment-list p.comment-author strong a,
 .ui-tabs-nav a {
-  color: #3b5998; }
+  color: #486d25; }
 
 a:hover, .ui-tabs-nav a:hover,
 #the-comment-list p.comment-author strong a:hover,
 #search-plugins-table .plugins .inactive a:hover,
 #all-plugins-table .plugins .inactive a:hover {
   text-decoration: underline;
-  color: #3b5998 !important; }
+  color: #486d25 !important; }
 
 #media-upload a.del-link, #media-items a.delete,
 .plugins a.delete, .describe .del-link,
@@ -61,7 +61,7 @@ table.widefat .spam a:hover,
 select, textarea, input[type="text"], input[type="password"],
 input[type="file"], input[type="email"], input[type="number"],
 input[type="search"], input[type="tel"], input[type="url"] {
-  border: 1px solid #bdc7d8 !important;
+  border: 1px solid #dcedb9 !important;
   font-family: "lucida grande",tahoma,verdana,arial,sans-serif!important;
   font-size: 11px!important;
   margin: 0;
@@ -125,8 +125,8 @@ input.button-primary, button.button-primary,
 a.button-primary, input[type="button"].button-primary,
 #wp-fullscreen-save .button-primary {
   color: white !important;
-  border: 1px solid #29447e !important;
-  background-color: #617aac !important;
+  border: 1px solid black !important;
+  background-color: #83ae2c !important;
   background-position: 100% -47px !important;
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
@@ -140,7 +140,7 @@ input.button-primary:active, button.button-primary:active,
 a.button-primary:active, .button-primary-disabled,
 .button-primary[disabled], .button-primary:disabled,
 #wp-fullscreen-save .button-primary:hover {
-  background: #617aac !important; }
+  background: #83ae2c !important; }
 
 .button, .button-secondary,
 .actions .button-secondary, input[type="button"],
@@ -186,13 +186,13 @@ a.button:active {
 .plugins .inactive, .plugins .inactive th, .plugins .inactive td,
 tr.inactive + tr.plugin-update-tr .plugin-update,
 .widefat tbody .active:hover .active {
-  background: #f4f6f9 !important; }
+  background: #e9ee9f !important; }
 
 .widefat tbody tr:hover td, .widefat tbody tr:hover th,
 .plugins .inactive, .plugins .inactive th,
 .plugins .inactive td,
 tr.inactive + tr.plugin-update-tr .plugin-update {
-  border-bottom: solid 1px #e3e8f0; }
+  border-bottom: solid 1px #dcedb9; }
 
 .widefat, .alternate,
 .alt, .active {
@@ -217,13 +217,13 @@ tr.inactive + tr.plugin-update-tr .plugin-update {
   text-align: left;
   padding: 15px 0 20px 80px;
   margin: 30px 20px 20px 0;
-  border: 1px dashed #ced5e5;
-  border-top: 1px dashed #ced5e5;
+  border: 1px dashed #dcedb9;
+  border-top: 1px dashed #dcedb9;
   -webkit-border: 03px;
   border-radius: 0px;
   color: black;
   font-size: 11px;
-  background: url("./images/info.png") no-repeat 10px center #f4f6f9; }
+  background: url("./images/info.png") no-repeat 10px center #e9ee9f; }
 
 div.updated, .login .message,
 #login_error, div.error {
@@ -348,7 +348,7 @@ body, html {
   background: none!important;
   border-top: 15px solid transparent!important;
   border-bottom: 15px solid transparent!important;
-  border-right: 15px solid #3b5998 !important;
+  border-right: 15px solid #486d25 !important;
   height: 0px!important;
   width: 0px!important; }
 
@@ -377,7 +377,7 @@ body, html {
   margin: 0px 0 0 -1px; }
 
 #adminmenu .wp-has-submenu .wp-submenu.sub-open .wp-submenu-wrap {
-  border: 1px solid #3b5998;
+  border: 1px solid #486d25;
   background: white !important;
   margin: 0;
   padding: 0; }
@@ -391,6 +391,17 @@ body, html {
 #adminmenu .wp-submenu a {
   padding-left: 30px;
   font-size: 11px; }
+
+#adminmenu li a.current,
+#adminmenu li.menu-top > a:focus,
+#adminmenu li.menu-top > a:hover,
+#adminmenu .wp-submenu a:focus,
+#adminmenu .wp-submenu a:hover {
+  background-color: #dcedb9 !important; }
+
+#adminmenu li a.wp-menu-open.menu-top {
+  background-color: #486d25 !important;
+  color: white !important; }
 
 #adminmenu a.menu-top {
   padding: 6px 5px;
@@ -428,7 +439,7 @@ body, html {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   background: #d8dfea !important;
-  color: #3b5998 !important; }
+  color: #486d25 !important; }
 
 #adminmenu li .awaiting-mod span,
 #adminmenu li span.update-plugins span,
@@ -451,7 +462,7 @@ body, html {
 
 #collapse-button,
 #collapse-menu:hover #collapse-button {
-  border-color: #133783;
+  border-color: #16210b;
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0; }
@@ -473,7 +484,7 @@ body, html {
 .folded #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head {
   font-weight: bold;
   color: white !important;
-  background: #3b5998 !important; }
+  background: #486d25 !important; }
 
 .folded #adminmenu .wp-has-current-submenu .wp-submenu {
   width: 140px; }
@@ -495,27 +506,9 @@ body, html {
 .folded #adminmenu li.wp-has-current-submenu,
 .folded #adminmenu li.current.menu-top,
 .folded #adminmenu .menu-top:hover {
-  background: #3b5998 !important; }
+  background: #486d25 !important; }
 
 /* Contents */
-.icon32.icon-dashboard, #icon-index,
-.icon32.icon-post, #icon-edit, #icon-post,
-.icon32.icon-media, #icon-upload,
-.icon32.icon-links, #icon-link-manager,
-#icon-link, #icon-link-category,
-.icon32.icon-page, #icon-edit-pages, #icon-page,
-.icon32.icon-comments, #icon-edit-comments,
-.icon32.icon-appearance, #icon-themes,
-.icon32.icon-plugins, #icon-plugins,
-.icon32.icon-users, #icon-users,
-#icon-profile, #icon-user-edit,
-.icon32.icon-tools, #icon-tools,
-#icon-admin, .icon32.icon-settings,
-#icon-options-general,
-.icon32.icon-site,
-#icon-ms-admin {
-  background-image: url("./images/icons32.png") !important; }
-
 .show-settings, .show-settings:hover {
   font-size: 11px!important;
   color: #555555 !important; }
@@ -551,7 +544,7 @@ h3.dashboard-widget-title small,
 #nav-menu-footer,
 .menu-item-handle,
 #fullscreen-topbar {
-  background: #f4f6f9 !important; }
+  background: #e9ee9f !important; }
 
 #post-body.columns-2 #postbox-container-1 {
   width: 290px!important; }
@@ -647,14 +640,14 @@ div.sidebar-name h3 {
   color: #555555 !important; }
 
 #media-upload a {
-  color: #3b5998 !important; }
+  color: #486d25 !important; }
 
 #TB_window #TB_title,
 .ui-dialog-titlebar,
 .ui-widget-header,
 .wp-dialog .ui-dialog-titlebar {
-  background: #6d84b4 !important;
-  border: 1px solid #3b5998 !important;
+  background: #e9ee9f !important;
+  border: 1px solid #486d25 !important;
   -webkit-border-radius: 0px!important;
   border-radius: 0px!important;
   -moz-border-radius: 0px!important; }
@@ -768,7 +761,7 @@ div.sidebar-name h3 {
 .login #backtoblog a,
 .login #nav a:hover,
 .login #backtoblog a:hover {
-  color: #3b5998 !important;
+  color: #486d25 !important;
   font-size: 11px!important;
   text-decoration: none; }
 
@@ -850,7 +843,7 @@ div.sidebar-name h3 {
 
 .rtl #adminmenu li.wp-has-submenu.wp-not-current-submenu .wp-menu-arrow,
 .rtl.folded #adminmenu li.wp-has-submenu.wp-not-current-submenu .wp-menu-arrow {
-  border-left: 15px solid #3b5998 !important;
+  border-left: 15px solid #486d25 !important;
   border-right: none!important;
   margin-right: -6px; }
 
@@ -886,7 +879,7 @@ div.sidebar-name h3 {
 
   #adminmenu li.wp-has-current-submenu,
   #adminmenu li.current.menu-top {
-    background: #627db4 !important; }
+    background: #83ae2c !important; }
 
   #adminmenu div.wp-menu-image {
     margin: 0;
@@ -921,12 +914,12 @@ div.sidebar-name h3 {
 .ba_box {
   position: relative;
   margin: 0 15px 15px 0;
-  border: 1px dashed #ced5e5;
-  border-top: 1px dashed #ced5e5;
+  border: 1px dashed #dcedb9;
+  border-top: 1px dashed #dcedb9;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  background: #f4f6f9;
+  background: #e9ee9f;
   padding: 10px 10px 0;
   -webkit-box-shadow: inset 0 1px 0 white, inset 0 0 20px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 0 white, inset 0 0 20px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);

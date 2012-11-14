@@ -1,13 +1,13 @@
 // colours
-    $dark_main_bg: #133783;
-    $main_bg: #3B5998;
-    $light_main_bg: #617AAC;
-    $lighter_main_bg: #F4F6F9;
-    $lightest_main_bg: #E3E8F0;
-    $responsive_current_menu_bg: #627DB4;
+    $main_bg: #486D25;
+    $dark_main_bg: darken($main_bg,20%);
+    $light_main_bg: #83ae2c;
+    $lighter_main_bg: #e9ee9f;
+    $lightest_main_bg: lighten($light_main_bg,40%);
+    $responsive_current_menu_bg: $light_main_bg;
     
     $white_bg: #ffffff;
-    $dark_border: #29447E;
+    $dark_border: darken($dark_main_bg,10%);
     
     $admin_bar_text: #C3CFE5;
     $white_text: #ffffff;
@@ -36,15 +36,15 @@
     
     $update_plugins_bg: #D8DFEA;
     
-    $ui-dialog_bg: #6D84B4;
+    $ui-dialog_bg: $lighter_main_bg;
     
-    $input_border: #BDC7D8;
+    $input_border: $lightest_main_bg;
     
     $table_border: #E9E9E9;
     
     $image_border: #CCCCCC;
     
-    $nag_border: #CED5E5;
+    $nag_border: $lightest_main_bg;
     
     $widget_border: #C5C5C5;
     
@@ -52,4 +52,4 @@
     
     $pay_attention: red;
     
-  //  
+    

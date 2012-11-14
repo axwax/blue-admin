@@ -153,7 +153,7 @@
 			echo '<span id="footer-thankyou">Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.</span>
 				<span id="footer-thankyou">This theme developed by <a href="http://lineshjose.com/">Linesh Jose</a>.</span>';
 		}
-		add_filter('admin_footer_text', 'lj_admin_footer'); 
+		//add_filter('admin_footer_text', 'lj_admin_footer'); 
 	}
 	
 /********************************************************************************************************************************************/	

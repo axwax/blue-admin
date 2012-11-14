@@ -1,8 +1,8 @@
 /* Admin Bar */
 #wpadminbar {
-  background: #3b5998 !important;
+  background: #486d25 !important;
   color: #c3cfe5 !important;
-  border-bottom: 1px solid #133783;
+  border-bottom: 1px solid #16210b;
   height: 28px !important;
   box-shadow: 0 0px 3px #555555;
   -maoz-box-shadow: 0 0px 3px #555555;
@@ -124,7 +124,7 @@
 
 #wpadminbar .menupop .ab-sub-wrapper {
   border-radius: 0!important;
-  border: 1px solid #133783 !important;
+  border: 1px solid #16210b !important;
   border-top: none!important;
   background: white !important; }
 
@@ -143,10 +143,10 @@
 #wpadminbar .menupop li:hover > .ab-sub-wrapper,
 #wpadminbar .menupop li.hover > .ab-sub-wrapper {
   margin-top: -31px;
-  border: 1px solid #133783 !important; }
+  border: 1px solid #16210b !important; }
 
 #wpadminbar .quicklinks .menupop ul li .ab-item {
-  color: #3b5998 !important;
+  color: #486d25 !important;
   font-size: 11px; }
 
 #wpadminbar .quicklinks .menupop ul li {
@@ -159,7 +159,7 @@
   background: transparent!important; }
 
 #wpadminbar .quicklinks .menupop ul li:hover {
-  background: #eaf2fa !important; }
+  background: #dcedb9 !important; }
 
 #wpadminbar .menupop .menupop > .ab-item {
   background: url("./images/admin-bar-sprite.png") 100% -23px no-repeat !important; }

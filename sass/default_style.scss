@@ -399,6 +399,19 @@
 	#adminmenu .wp-submenu a {
 		padding-left: 30px; 
 		font-size:11px;
+	}	
+	#adminmenu li a.current, //current submenu
+	#adminmenu li.menu-top > a:focus, //hovered menu
+	#adminmenu li.menu-top > a:hover,
+	#adminmenu .wp-submenu a:focus, //hovered submenu
+	#adminmenu .wp-submenu a:hover,
+	{
+		background-color: $lightest_main_bg !important;
+	}
+	#adminmenu li a.wp-menu-open.menu-top //current top menu
+	{
+		background-color: $main_bg !important;
+		color: $white_text !important;
 	}
 	#adminmenu a.menu-top {
 		padding: 6px 5px;
@@ -528,7 +541,7 @@
 	 #icon-options-general, 
 	 .icon32.icon-site, 
 	 #icon-ms-admin {
-	  	background-image: url('./images/icons32.png')!important;
+	  	//background-image: url('./images/icons32.png')!important;
 	}	
 	.show-settings, .show-settings:hover{
 		font-size:11px!important;
